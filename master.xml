@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <!-- Common -->
+  <remote name="triplr-dev" fetch="https://github.com/triplr-dev" />
+  <remove-project name="external_tinycompress" />
+  <project name="android_hardware_sony_timekeep" path="hardware/sony/timekeep" remote="lineage" revision="lineage-16.0" />				
+  <project name="android_packages_resources_devicesettings" path="packages/resources/devicesettings" remote="lineage" revision="lineage-16.0" />
+  <project name="android_device_samsung_qcom-common" path="device/samsung/qcom-common" remote="triplr-dev" revision="aosp-pie" />
+  <project name="android_hardware_samsung" path="hardware/samsung" remote="triplr-dev" revision="aosp-ten" />
+  <project name="android_device_samsung_trlte-common" path="device/samsung/trlte-common" remote="triplr-dev" revision="aosp-ten" />
+  <project name="android_kernel_samsung_apq8084" path="kernel/samsung/apq8084" remote="triplr-dev" revision="lineage-16.0" />
+  <project name="external_tinycompress" path="external/tinycompress" remote="triplr-dev" revision="ten" />
+  <project name="proprietary_vendor_samsung" path="vendor/samsung" remote="triplr-dev" revision="lineage-16.0" />
+  <!-- HALs -->
+  <project name="android_hardware_qcom_audio" path="hardware/qcom/audio-caf/apq8084" remote="lineage" revision="lineage-16.0-caf-8084" />
+  <project name="android_hardware_qcom_audio" path="hardware/qcom/audio-caf/msm8974" remote="lineage" revision="lineage-17.0-caf-msm8974" />
+  <project name="android_hardware_qcom_display" path="hardware/qcom/display-caf/apq8084" remote="triplr-dev" revision="lineage-17.0-caf-apq8084" />
+  <project name="android_hardware_qcom_media" path="hardware/qcom/media-caf/apq8084" remote="triplr-dev" revision="lineage-17.0-caf-apq8084" />
+  <!-- TBLTE -->
+  <project name="android_device_samsung_tblte" path="device/samsung/tblte" remote="triplr-dev" revision="aosp-ten" />
+  <!-- TRLTE -->
+  <project name="android_device_samsung_trlte" path="device/samsung/trlte" remote="triplr-dev" revision="aosp-ten" />
+  <!-- TRLTEDuos -->
+  <project name="android_device_samsung_trlteduos" path="device/samsung/trlteduos" remote="triplr-dev" revision="aosp-ten" />
+</manifest>
